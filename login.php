@@ -41,7 +41,7 @@ if(isset($_SESSION['id_user'])) {
             </div>
             <div class="row pt-4">
                 <div class="col">
-                    <p class="text-center"><img class="img-fluid" data-aos="fade" data-aos-delay="850" src="assets/img/logo.png" width="40%"></p>
+                    <p class="text-center"><img class="img-fluid" src="assets/img/logo.png" width="40%"></p>
                 </div>
             </div>
             <form method="post" class="pt-3">
@@ -109,20 +109,20 @@ if(isset($_SESSION['id_user'])) {
                         }
                     }
                     ?>
-                        <label class="form-label fw-semibold text-white" data-aos="fade" data-aos-delay="1050">Nama Pengguna :</label>
-                        <input class="form-control form-control-sm" type="text" data-aos="fade" data-aos-delay="1050" placeholder="Nama Pengguna" name="nama_pengguna">
+                        <label class="form-label fw-semibold text-white">Nama Pengguna :</label>
+                        <input class="form-control form-control-sm" type="text" placeholder="Nama Pengguna" name="nama_pengguna">
                         
-                        <label class="form-label fw-semibold text-white pt-3" data-aos="fade" data-aos-delay="1250">Kata Sandi :</label>
-                        <input class="form-control form-control-sm" type="password" data-aos="fade" data-aos-delay="1250" placeholder="Kata Sandi" name="kata_sandi" minlength="8">
+                        <label class="form-label fw-semibold text-white pt-3">Kata Sandi :</label>
+                        <input class="form-control form-control-sm" type="password" placeholder="Kata Sandi" name="kata_sandi" minlength="8">
 
                         <div class="d-grid gap-1 col-7 mx-auto pt-3">
-                            <button class="btn btn-sm" data-aos="fade" data-aos-delay="1450" type="submit" name="tombol_masuk" style="background: #001b2f;color: rgb(255,255,255);"><i class="fas fa-sign-in-alt"></i>&nbsp;Masuk</button>
+                            <button class="btn btn-sm" type="submit" name="tombol_masuk" style="background: #001b2f;color: rgb(255,255,255);"><i class="fas fa-sign-in-alt"></i>&nbsp;Masuk</button>
                         </div>
                     </div>
                 </div>
             </form>
             <div class="row pt-3">
-                <div class="col text-center"><span class="text-white" data-aos="fade" data-aos-delay="1700" style="font-size: 10px;"><i class="far fa-copyright"></i>&nbsp;Smart Home Surveillance 2024</span></div>
+                <div class="col text-center"><span class="text-white" style="font-size: 10px;"><i class="far fa-copyright"></i>&nbsp;Smart Home Surveillance 2024</span></div>
             </div>
         </div>
     </section>

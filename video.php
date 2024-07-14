@@ -2,7 +2,7 @@
 session_start();
 ob_start();
 if(!isset($_SESSION['id_user'])) {
-    header('location: https://smarthomesurveillance-web.ngrok.app/SAS_flask/login.php');
+    header('location: https://smarthomesurveillance-web.ngrok.app/SAS_web/login.php');
 }
 ?>
 <!DOCTYPE html>
@@ -57,7 +57,7 @@ if(!isset($_SESSION['id_user'])) {
             </div>
         </div>
     </section>
-    <section id="Main" style="margin-top: 30%;">
+    <section id="Main" style="margin-top: 30%; margin-bottom: 25%;">
         <div class="container">
             <div class="row pb-4">
                 <div class="col text-center">
